@@ -1,0 +1,19 @@
+*Resolve /opt/lampp/bin/mysql.server: 264: kill: No such process 
+FIX error:
+service mysql stop
+sudo /opt/lampp/lampp start
+
+
+*fix error: sudo /etc/init.d/apache2 stop
+	    sudo /opt/lampp/lampp start
+
+
+*Open manager-linux-x64.run
+	cd /opt/lampp
+	sudo ./manager-linux-x64.run
+
+
+
+sudo /etc/init.d/apache2 stop
+service mysql stop
+sudo /opt/lampp/lampp start
